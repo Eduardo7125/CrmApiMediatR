@@ -1,0 +1,45 @@
+# User-specific files from Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio 2019+ cache/options directory
+# This is a VITAL line to ignore user-specific settings and cache
+.vs/
+
+# Visual Studio Code files
+.vscode/
+
+# Rider files
+.idea/
+
+# Secrets files - VERY IMPORTANT to prevent leaking credentials
+appsettings.Development.json
+secrets.json
+usersecrets.secrets.json
+
+# Other tool-generated files
+*.DotSettings
+*.tlog
+ClientBin/
+_ReSharper*/
+*/ReSharper*.user
+*.resharper
+**/packages.lock.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
